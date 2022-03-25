@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="icon" type="image/x-icon" href="./statics/images/favicon.ico">
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -45,38 +47,42 @@
     </header>
     <main>
       <!-- banner -->
-      <div class="top-banner">
-        <div class="top-banner__content">
-          <p class="top-banner__title bold">
-            <!-- 띄어쓰기 포함 최대17자 -->
-            프론트엔드를 대표하는
-            <br />
-            <!-- 띄어쓰기 포함 최대17자 -->
-            라이브러리, 리액트.
-          </p>
-          <p class="top-banner__subtitle regular">
-            <!-- 띄어쓰기 포함 27자 -->
-            리액트 스쿨과 함께라면
-          </p>
-          <a href="https://projectlion.io/">
-            <div class="top-banner__cta-button center bold">
-              <!-- 띄어쓰기 포함 16자 -->
-              스쿨 신청 상담받기
+      <div class="top-banner-big-container">
+        <div class="top-banner-big">
+          <div class="top-banner-big__image-container">
+            <img 
+              src="./statics/images/top-banner/top_big.png"
+              class="top-banner__image-big"
+            >
+          </div>
+          <div class="top-banner-big__content">
+            <div class="top-banner__content" style="text-align: center;">
+              <p class="top-banner__title bold" style="font-size: 42px; line-height: 52px;">
+                프론트엔드를 대표하는 ㅎㅎ
+              </p>
+              <p class="top-banner__subtitle regular" style="font-size: 36px; line-height: 42px;">
+                <!-- 띄어쓰기 포함 27자 -->
+                리액트 스쿨과 함께라면 라면먹
+              </p>
+              <div style="display: flex; justify-content: center;">
+                <a href="https://projectlion.io/">
+                  <div class="top-banner__cta-button center bold" style=" margin-top: 30px">
+                    <!-- 띄어쓰기 포함 16자 -->
+                    스쿨 신청 상담받기
+                  </div>
+                </a>
+              </div>
             </div>
-          </a>
+          </div>
         </div>
-        <!-- 배너 이미지 -->
-        <img
-          src="./statics/images/top-banner/origin_react_react_sns.png"
-          class="top-banner__image"
-        />
+        
       </div>
       <!-- services -->
       <section id="service-section" class="container">
         <div class="section-title">
-          <h2 class="section-title__main center bold">Services</h2>
+          <h2 class="section-title__main center bold">Lectures</h2>
           <h3 class="section-title__sub center bold"
-            >지금 리액트스쿨과 함께 리액트를 배워야하는 이유!</h3
+            >백엔드도 재밋어요</h3
           >
         </div>
         <div class="grid-3fr">
@@ -277,7 +283,7 @@
         <a class="cta-button__wrapper" href="https://projectlion.io/">
           <div class="cta-button center bold">
             <!-- 띄어쓰기 포함 16자 -->
-            스킬 신청 상담받기
+            곧 점심시간
           </div>
         </a>
       </div>
@@ -291,7 +297,7 @@
           </div>
           <div class="footer__top__info">
             <div class="footer__top__info__external-link">
-              <p class="footer__top__info__title bold"> external Link </p>
+              <p class="footer__top__info__title bold"> External Link </p>
               <ul>
                 <li class="external-link__wrapper">
                   <div class="external-link__icon">
@@ -308,7 +314,7 @@
                       />
                     </svg>
                   </div>
-                  <p class="external-link__name"> Facebook </p>
+                  <p class="external-link__name"> Meta </p>
                 </li>
                 <li class="external-link__wrapper">
                   <div class="external-link__icon">
@@ -367,7 +373,7 @@
               </ul>
             </div>
             <div class="footer__top__info__contact">
-              <p class="footer__top__info__title bold"> Contact </p>
+              <p class="footer__top__info__title bold"> Contact...? </p>
               <div class="footer__top__info__detail">
                 <p class="footer-text-wrapper semi-bold">
                   전화상담
